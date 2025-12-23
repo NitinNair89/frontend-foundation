@@ -1,6 +1,6 @@
 {
     "name": "frontend-foundation",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "private": false,
     "description": "A production-grade, swap-safe Next.js frontend foundation",
     "license": "MIT",
@@ -11,13 +11,10 @@
         "format": "prettier --write ."
     },
     "dependencies": {
-        "@reduxjs/toolkit": "^2.2.3",
-        "clsx": "^2.1.1",
         "next": "^14.2.0",
         "next-themes": "^0.4.6",
         "react": "^18.3.0",
-        "react-dom": "^18.3.0",
-        "react-redux": "^9.1.2"
+        "react-dom": "^18.3.0"
     },
     "devDependencies": {
         "@types/node": "25.0.3",
