@@ -8,7 +8,6 @@ module.exports = {
 				secondary: "var(--color-secondary)",
 				muted: "var(--color-muted)",
 				disabled: "var(--color-disabled)",
-				border: "var(--color-border)",
 
 				surface: {
 					primary: "var(--surface-primary)",

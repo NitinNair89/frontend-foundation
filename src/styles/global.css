@@ -70,7 +70,7 @@
 
 @layer components {
 	.card {
-		@apply border border-color rounded-lg py-2 px-4;
+		@apply border rounded-lg py-2 px-4;
 	}
 
 	.header {
@@ -197,10 +197,6 @@
 	}
 	.bg-surface-subtle {
 		background-color: var(--surface-subtle);
-	}
-
-	.border-border {
-		border-color: var(--color-border);
 	}
 
 	.bg-action-hover {
