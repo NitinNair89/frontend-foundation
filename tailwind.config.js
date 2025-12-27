@@ -4,19 +4,32 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: "hsl(var(--text-primary))",
-				secondary: "hsl(var(--text-secondary))",
+				primary: "var(--color-primary)",
+				secondary: "var(--color-secondary)",
+				muted: "var(--color-muted)",
+				disabled: "var(--color-disabled)",
+				border: "var(--color-border)",
 
 				surface: {
-					DEFAULT: "hsl(var(--surface-default))",
-					subtle: "hsl(var(--surface-subtle))",
-				},
-				border: {
-					subtle: "hsl(var(--border-subtle))",
+					primary: "var(--surface-primary)",
+					secondary: "var(--surface-secondary)",
+					subtle: "var(--surface-subtle)",
 				},
 				action: {
-					hover: "hsl(var(--action-hover))",
+					primary: {
+						DEFAULT: "var(--action-primary)",
+						hover: "var(--action-primary-hover)",
+						focus: "var(--action-primary-focussed)",
+						disabled: "var(--action-primary-disabled)",
+					},
+					secondary: {
+						DEFAULT: "var(--action-secondary)",
+						hover: "var(--action-secondary-hover)",
+						focus: "var(--action-secondary-focussed)",
+						disabled: "var(--action-secondary-disabled)",
+					},
 				},
+				accent: "var(--accent)",
 			},
 		},
 	},
