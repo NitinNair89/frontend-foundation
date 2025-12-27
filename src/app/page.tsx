@@ -1,4 +1,4 @@
-import { FeatureCard } from "@/components/FeatureCard";
+import { Card } from "@/components/Card";
 
 const FEATURES = [
 	{
@@ -30,7 +30,6 @@ const FEATURES = [
 export default function HomePage() {
 	return (
 		<section className="page-container">
-			<h1 className="page-title">Frontend Foundation</h1>
 			<p className="page-subtitle">
 				A production-grade Next.js starter focused on architecture,
 				swap-ability, and long-term maintainability.
@@ -38,7 +37,7 @@ export default function HomePage() {
 
 			<div className="feature-grid">
 				{FEATURES.map((feature) => (
-					<FeatureCard
+					<Card
 						key={feature.title}
 						title={feature.title}
 						description={feature.description}
