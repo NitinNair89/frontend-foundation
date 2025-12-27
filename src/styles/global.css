@@ -213,9 +213,3 @@
 		background-color: var(--action-secondary);
 	}
 }
-
-/* COMPONENTS */
-@layer components {
-	@import "./components.css";
-	@import "./typography.css";
-}
