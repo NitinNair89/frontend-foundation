@@ -12,10 +12,8 @@
 	--color-muted: var(--color-muted);
 	--color-disabled: var(--color-disabled);
 	--color-border: var(--color-border);
-
-	--color-surface-primary: var(--surface-primary);
-	--color-surface-secondary: var(--surface-secondary);
-	--color-surface-subtle: var(--surface-subtle);
+	--color-black: var(--color-black);
+	--color-white: var(--color-white);
 
 	--color-success: var(--success);
 	--color-warning: var(--warning);
