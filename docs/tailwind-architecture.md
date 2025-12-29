@@ -16,14 +16,7 @@ This enables:
 
 - Centralized theming
 - Zero refactor when changing palettes
-
-Example token usage:
-
-- bg-background
-- text-foreground
-- text-muted-foreground
-
-No raw hex values are used in JSX.
+- No raw hex values are used in JSX.
 
 ---
 
@@ -34,20 +27,6 @@ The Tailwind content path is intentionally broad:
 `./src/**/*.{js,ts,jsx,tsx,mdx}`
 
 This prevents silent style drops and future-proofs the template.
-
----
-
-## Why No Utility Layer Overrides
-
-We do not define custom utilities via @layer utilities.
-
-Reason:
-
-- Scales poorly
-- Duplicates Tailwind’s token system
-- Reduces swap-ability
-
-Tokens + utilities are sufficient.
 
 ---
 
