@@ -1,0 +1,8 @@
+.link {
+	@apply transition outline-none text-primary rounded-full px-4 py-2;
+
+	&:hover,
+	&:focus-visible {
+		@apply bg-primary text-white;
+	}
+}
