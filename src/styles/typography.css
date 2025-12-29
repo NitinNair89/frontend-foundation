@@ -1,0 +1,19 @@
+@utility display-lg {
+	@apply text-5xl leading-none font-semibold;
+}
+@utility display-md {
+	@apply text-4xl leading-none font-semibold;
+}
+
+@utility body-lg {
+	@apply text-lg leading-[24px];
+}
+@utility body-md {
+	@apply text-base leading-normal;
+}
+@utility body-sm {
+	@apply text-sm leading-[16px];
+}
+@utility title {
+	@apply body-lg font-bold;
+}

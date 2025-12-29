@@ -1,0 +1,15 @@
+.card {
+	@apply rounded-lg border px-4 py-3 w-full;
+}
+
+.card-title {
+	@apply font-semibold text-primary my-2;
+}
+
+.card-body {
+	@apply body-md mb-4;
+}
+
+.card-actions {
+	@apply mt-4 flex justify-end gap-2;
+}

@@ -1,74 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer base {
-	:root {
-		/* surfaces */
-		--surface-default: 0 0% 100%;
-		--surface-subtle: 210 40% 98%;
-
-		/* text */
-		--text-primary: 222 47% 11%;
-		--text-secondary: 215 16% 47%;
-
-		/* borders */
-		--border-subtle: 214 32% 91%;
-
-		/* actions */
-		--action-hover: 210 40% 96%;
-	}
-
-	.dark {
-		--surface-default: 222 47% 11%;
-		--surface-subtle: 223 47% 15%;
-
-		--text-primary: 210 40% 98%;
-		--text-secondary: 215 20% 65%;
-
-		--border-subtle: 216 34% 17%;
-		--action-hover: 223 47% 20%;
-	}
-}
-
-@layer components {
-	.app-header {
-		@apply flex h-14 items-center justify-end px-6 bg-surface;
-	}
-
-	.btn {
-		@apply inline-flex items-center rounded-md border border-border-subtle px-3 py-1 text-sm text-primary transition;
-	}
-
-	.btn-ghost {
-		@apply hover:bg-action-hover;
-	}
-
-	.page-container {
-		@apply mx-auto max-w-5xl px-6 py-20;
-	}
-
-	.page-title {
-		@apply text-4xl font-semibold tracking-tight text-primary;
-	}
-
-	.page-subtitle {
-		@apply mt-4 text-lg text-secondary;
-	}
-
-	.feature-grid {
-		@apply mt-12 grid gap-6 sm:grid-cols-2;
-	}
-
-	.feature-card {
-		@apply block rounded-lg border border-border-subtle bg-surface p-6 transition hover:bg-surface-subtle;
-	}
-
-	.feature-title {
-		@apply text-base font-medium text-primary;
-	}
-
-	.feature-description {
-		@apply mt-2 text-sm text-secondary;
-	}
-}
+/* all other css must be imported AFTER tailwindcss */
+@import "./tokens.css";
+@import "./theme.css";
+@import "./utilities.css";
+@import "./typography.css";
+@import "./layout.css";
+@import "./components/Header.css";
+@import "./components/Icon.css";
+@import "./components/Button.css";
+@import "./components/Card.css";
+@import "./components/Link.css";

@@ -17,11 +17,12 @@ export default function RootLayout({
 				/>
 				<meta
 					name="keywords"
-					content="frontend, template, foundation, nextjs, tailwind"
+					content="frontend, template, foundation, nextjs, tailwindcss, reactjs, typescript"
 				/>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>Frontend Foundation Template</title>
 			</head>
-			<body className="min-h-screen bg-surface text-primary">
+			<body className="min-h-screen">
 				<ThemeProvider>
 					<AppHeader />
 					<main>{children}</main>

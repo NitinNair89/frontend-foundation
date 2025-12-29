@@ -1,0 +1,23 @@
+@theme {
+	--color-primary: var(--brand-primary);
+	--color-primary-hover: var(--brand-primary-hover);
+	--color-primary-focussed: var(--brand-primary-focussed);
+	--color-primary-disabled: var(--brand-primary-disabled);
+
+	--color-secondary: var(--brand-secondary);
+	--color-secondary-hover: var(--brand-secondary-hover);
+	--color-secondary-focussed: var(--brand-secondary-focussed);
+	--color-secondary-disabled: var(--brand-secondary-disabled);
+
+	--color-muted: var(--color-muted);
+	--color-disabled: var(--color-disabled);
+	--color-border: var(--color-border);
+	--color-black: var(--color-black);
+	--color-white: var(--color-white);
+
+	--color-success: var(--success);
+	--color-warning: var(--warning);
+	--color-danger: var(--danger);
+
+	--color-accent: var(--accent);
+}

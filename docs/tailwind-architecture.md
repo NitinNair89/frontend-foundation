@@ -16,14 +16,7 @@ This enables:
 
 - Centralized theming
 - Zero refactor when changing palettes
-
-Example token usage:
-
-- bg-background
-- text-foreground
-- text-muted-foreground
-
-No raw hex values are used in JSX.
+- No raw hex values are used in JSX.
 
 ---
 
@@ -37,17 +30,15 @@ This prevents silent style drops and future-proofs the template.
 
 ---
 
-## Why No Utility Layer Overrides
+## Theme System
 
-We do not define custom utilities via @layer utilities.
+Foundation Template starter kit ships with a
+**built-in theme system by default** - enabling you to
+focus on feature development right from the start.
 
-Reason:
+To understand how theming works, read the documentation using the link below.
 
-- Scales poorly
-- Duplicates Tailwind’s token system
-- Reduces swap-ability
-
-Tokens + utilities are sufficient.
+- [Theme System Documentation](theme-system.md)
 
 ---
 

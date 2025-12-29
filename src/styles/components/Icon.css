@@ -1,0 +1,9 @@
+.icon {
+	@apply size-4 stroke-1;
+}
+.icon-start {
+	@apply me-1;
+}
+.icon-end {
+	@apply ms-1;
+}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useMounted } from "@/hooks/useMounted";
+import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
 export function ThemeToggle() {
@@ -12,9 +13,9 @@ export function ThemeToggle() {
 	return (
 		<button
 			onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-			className="rounded-md border px-3 py-1 text-sm"
+			className="btn"
 		>
-			{theme === "dark" ? "Light" : "Dark"}
+			{theme === "dark" ? <Sun className="icon" /> : <Moon className="icon" />}
 		</button>
 	);
 }

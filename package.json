@@ -1,6 +1,6 @@
 {
     "name": "frontend-foundation",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "private": false,
     "description": "A production-grade, swap-safe Next.js frontend foundation",
     "license": "MIT",
@@ -8,22 +8,27 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "format": "prettier --write ."
+        "format": "prettier --write .",
+        "lint": "npx eslint ."
     },
     "dependencies": {
+        "lucide-react": "^0.562.0",
         "next": "^14.2.0",
         "next-themes": "^0.4.6",
         "react": "^18.3.0",
         "react-dom": "^18.3.0"
     },
     "devDependencies": {
+        "@tailwindcss/postcss": "^4.1.18",
         "@types/node": "25.0.3",
         "@types/react": "19.2.7",
-        "autoprefixer": "^10.4.23",
+        "eslint": "^9.39.2",
+        "eslint-config-next": "^16.1.1",
+        "eslint-config-prettier": "^10.1.8",
         "postcss": "^8.5.6",
         "prettier": "^3.3.2",
-        "prettier-plugin-tailwindcss": "^0.6.5",
-        "tailwindcss": "^3.4.19",
+        "prettier-plugin-tailwindcss": "^0.7.2",
+        "tailwindcss": "^4.1.18",
         "typescript": "^5.5.0"
     }
 }

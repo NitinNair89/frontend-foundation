@@ -2,6 +2,33 @@
 
 ---
 
+## 2.0.0
+
+## Chore(s)
+
+- Tailwindcss upgrade, eslint and prettier configured (`3beaca8`)
+- Removed obsolete imports (`91b7576`)
+- Added Lucide icon library (`1eabfa6`)
+- Updated button border and utility styles (`6d5accf`)
+
+## Feat(s)
+
+- Theme system (`6665774`)
+- Component css organized (`c76a77a`)
+- Theme page added (`39ef792`)
+- Theme setup (`1d3b730`)
+- Updated design tokens (`3ec3921`)
+
+## Other(s)
+
+- Minor improvements and cleanup (`9770484`)
+
+## Doc(s)
+
+- Minor updates for theming (`911b0e5`)
+
+---
+
 ## 1.0.0
 
 Initial stable frontend foundation template
