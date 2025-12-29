@@ -29,11 +29,11 @@ const FEATURES = [
 
 export default function HomePage() {
 	return (
-		<section className="page-container">
-			<p className="page-subtitle">
+		<section className="container">
+			<h2 className="display-md text-gray-950 font-normal">
 				A production-grade Next.js starter focused on architecture,
 				swap-ability, and long-term maintainability.
-			</p>
+			</h2>
 
 			<div className="feature-grid">
 				{FEATURES.map((feature) => (
