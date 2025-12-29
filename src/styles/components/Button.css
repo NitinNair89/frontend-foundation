@@ -1,5 +1,5 @@
 .btn {
-	@apply bg-black text-white dark:bg-white dark:text-black flex items-center rounded-[20px] border px-4 py-2 transition cursor-pointer body-md select-none;
+	@apply bg-black text-white dark:bg-white dark:text-black flex items-center rounded-[20px] border border-transparent px-4 py-2 transition cursor-pointer body-md select-none;
 
 	&:disabled {
 		@apply pointer-events-none;
@@ -9,7 +9,7 @@
 	}
 }
 .btn-primary {
-	@apply bg-primary text-white;
+	@apply bg-primary text-white outline-transparent;
 
 	&:disabled {
 		@apply disabled:bg-primary-disabled;
@@ -22,7 +22,7 @@
 	}
 }
 .btn-secondary {
-	@apply bg-secondary text-white hover:bg-secondary-hover focus-visible:bg-secondary-focussed;
+	@apply bg-secondary text-white outline-transparent;
 
 	&:disabled {
 		@apply disabled:bg-secondary-disabled;
