@@ -17,6 +17,3 @@
 @utility title {
 	@apply body-lg font-bold;
 }
-@utility sub-title {
-	@apply font-semibold text-muted;
-}
