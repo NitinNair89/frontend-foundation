@@ -1,0 +1,36 @@
+.btn {
+	@apply flex items-center rounded-[20px] border px-4 py-2 transition cursor-pointer text-white body-md select-none;
+
+	&:disabled {
+		@apply pointer-events-none;
+	}
+	&:focus-visible {
+		@apply outline-2 outline-offset-2;
+	}
+}
+.btn-primary {
+	@apply bg-primary;
+
+	&:disabled {
+		@apply disabled:bg-primary-disabled;
+	}
+	&:hover {
+		@apply hover:bg-primary-hover;
+	}
+	&:focus-visible {
+		@apply focus-visible:bg-primary-focussed;
+	}
+}
+.btn-secondary {
+	@apply bg-secondary hover:bg-secondary-hover focus-visible:bg-secondary-focussed;
+
+	&:disabled {
+		@apply disabled:bg-secondary-disabled;
+	}
+	&:hover {
+		@apply hover:bg-secondary-hover;
+	}
+	&:focus-visible {
+		@apply focus-visible:bg-secondary-focussed;
+	}
+}
