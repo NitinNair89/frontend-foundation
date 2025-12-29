@@ -30,6 +30,18 @@ This prevents silent style drops and future-proofs the template.
 
 ---
 
+## Theme System
+
+Foundation Template starter kit ships with a
+**built-in theme system by default** - enabling you to
+focus on feature development right from the start.
+
+To understand how theming works, read the documentation using the link below.
+
+- [Theme System Documentation](theme-system.md)
+
+---
+
 ## Outcome
 
 - Predictable styling

@@ -16,9 +16,6 @@ This page provides an overview and quick links to all architecture and system gu
 - [State and Data](state-and-data.md)  
   Guidelines for UI contracts, state management, and data transport strategies.
 
-- [Swap Guide](swap_guide.md) _(when implemented)_  
-  Instructions to swap HTTP clients or state stores without touching UI code.
-
 ---
 
 ## Getting Started

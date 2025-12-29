@@ -23,7 +23,7 @@ const ThemePage = () => {
 						Frontend Foundation Template
 						<SquareArrowOutUpRight className="icon icon-end" />
 					</Link>
-					, read the documentation using the links below.
+					, read the documentation using the link below.
 					<br />
 					<Link
 						className="link text-primary"
