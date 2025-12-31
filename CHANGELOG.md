@@ -2,6 +2,18 @@
 
 ---
 
+## 2.1.0
+
+## Refactor(s)
+
+- Refactored usage of directives (`bd2e9b8`)
+
+## Release(s)
+
+- v2.1.0 (`212dca3`)
+
+---
+
 ## 2.0.0
 
 ## Chore(s)
